@@ -46,7 +46,7 @@ body {
     
 }
 .top {
-    padding: 80px 40px;
+    padding: 80px 40px 20px 40px;
     font-size: 1.5rem;
 }
 
@@ -111,5 +111,14 @@ body {
     .sidebar-content {
         margin-top: 0;
         width: 100%;
+    }
+    .top {
+        padding: 20px;
+    }
+    .form-inputs div {
+        width: 100%;
+    }
+    .form-inputs input {
+        width: 95%;
     }
 }

@@ -13,6 +13,7 @@ body {
     background-color: rgb(241, 231, 231);
     display: grid;
     grid-template-columns: 1fr 2fr;
+    box-sizing: border-box;
 }
 
 .sidebar-container {
@@ -36,15 +37,51 @@ body {
 
 .txt-sidebar {
     color: white;
-    font-family: norsebold, Verdana, sans-serif;
+    font-family: norsebold, 'Franklin Gothic Medium', Verdana, sans-serif;
     font-size: 6rem;
 }
 
 .main {
-    padding: 80px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .top {
-    font-size: 2rem;
+    padding: 80px 40px;
+    font-size: 1.5rem;
+}
+
+.form-inputs {
+    background-color: rgb(224 217 203);
+    padding: 40px;
+    font-size: 1.2rem;
+}
+
+.form-inputs label {
+    text-transform: uppercase;
+    display: block;
+    font-size: small;
+}
+
+.form-inputs input {
+    border: thin solid #E5E7EB;
+    padding: 6px 40px 6px 6px;
+}
+
+.form-button {
+    padding: 30px 0 0 40px;
+}
+
+.form-button button {
+    background-color:#596D48;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+
+}
+
+.form-button p a {
+    text-decoration: none;
+    color: #596D48;
 }
 
 @media screen and (max-width: 500px) {

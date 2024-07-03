@@ -54,17 +54,32 @@ body {
     background-color: rgb(224 217 203);
     padding: 40px;
     font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-inputs h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.form-inputs div {
+    width: 50%;
+    margin-top: 15px;
 }
 
 .form-inputs label {
     text-transform: uppercase;
     display: block;
     font-size: small;
+    margin-bottom: 3px;
 }
 
 .form-inputs input {
     border: thin solid #E5E7EB;
-    padding: 6px 40px 6px 6px;
+    border-radius: 5px;
+    padding: 6px;
+    width: 75%;
 }
 
 .form-button {
